@@ -10,6 +10,7 @@ console.log('  %s middleware', n);
 while (n--) {
   app.use(function(req, res, next){
     next();
+    qwe
   });
 }
 
